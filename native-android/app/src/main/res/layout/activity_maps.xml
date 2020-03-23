@@ -19,16 +19,16 @@
             android:layout_width="0dp"
             android:layout_height="54dp"
             android:layout_marginStart="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/rounded_edittext"
             android:ems="10"
             android:hint="Buscar devs por techs..."
             android:inputType="textCapWords|textNoSuggestions"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            app:layout_constraintBottom_toBottomOf="@+id/map"
             app:layout_constraintEnd_toStartOf="@+id/btnLoadDevs"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/map" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnLoadDevs"
